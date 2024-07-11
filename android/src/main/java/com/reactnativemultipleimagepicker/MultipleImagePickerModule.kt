@@ -178,10 +178,8 @@ class MultipleImagePickerModule(reactContext: ReactApplicationContext) :
 
         // BOTTOM BAR
         val bottomBar = BottomNavBarStyle()
-        bottomBar.bottomPreviewNormalTextColor =
-            ContextCompat.getColor(appContext, R.color.app_color_pri)
-        bottomBar.bottomPreviewSelectTextColor =
-            ContextCompat.getColor(appContext, R.color.app_color_pri)
+        bottomBar.bottomPreviewNormalTextColor = primaryColor
+        bottomBar.bottomPreviewSelectTextColor = primaryColor
         bottomBar.bottomNarBarBackgroundColor =
             ContextCompat.getColor(appContext, com.luck.picture.lib.R.color.ps_color_white)
         bottomBar.bottomSelectNumResources = R.drawable.num_oval_orange
